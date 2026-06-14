@@ -6,8 +6,9 @@ This repository contains my submissions for the DecodeLabs Industrial Training P
 
 | # | Project Title | Domain | Status |
 |---|----------------|--------|--------|
-| 1 | Rule-Based AI Chatbot | Control Flow & Logic | Completed |
-| 2 | Data Classification Using AI | Supervised Learning | Completed |
+| 1 | Rule-Based AI Chatbot | Control Flow & Logic | ✅ Completed |
+| 2 | Data Classification Using AI | Supervised Learning | ✅ Completed |
+| 3 | AI Recommendation Logic | Content-Based Filtering | ✅ Completed |
 
 ## Folder Structure
 
@@ -29,26 +30,34 @@ DecodeLabs-AI-Projects/
 │   ├── P2_DataClassification_Report.docx
 │   └── screenshots/
 │
+├── Project3-AIRecommendationLogic/
+│   ├── tech_stack_recommender.py
+│   ├── output_run.txt
+│   ├── README.md
+│   └── screenshots/
+│
 └── README.md  (this file)
 ```
 
 ## How to Run
 
-Both projects only need Python 3 and (for Project 2) scikit-learn + numpy.
-
 ```bash
-# Project 1
+# Project 1 – Rule-Based Chatbot (no dependencies)
 cd Project1-RuleBasedChatbot
 python chatbot_v2.py
 
-# Project 2
+# Project 2 – Data Classification
 cd Project2-DataClassification
 pip install scikit-learn numpy
 python iris_classifier.py
+
+# Project 3 – AI Recommendation Logic (no dependencies!)
+cd Project3-AIRecommendationLogic
+python tech_stack_recommender.py
 ```
 
 ## Author
 
-Samiksha Rana
-B.Tech AI & Deep Learning, Mody University of Science & Technology
+Samiksha Rana  
+B.Tech AI & Deep Learning, Mody University of Science & Technology  
 DecodeLabs Industrial Training Intern – Batch 2026
